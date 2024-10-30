@@ -24,4 +24,4 @@ jobs:
         with:
           push: true
           platforms: linux/amd64
-          tags: ${{ secrets.DOCKER_REPO }}/self-hosted-ecs:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/self-hosted-ecs:latest
