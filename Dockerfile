@@ -28,4 +28,5 @@ RUN sudo ./bin/installdependencies.sh
 
 # Copy start script
 COPY start.sh start.sh
+RUN chmod +x start.sh
 ENTRYPOINT ["./start.sh"]
